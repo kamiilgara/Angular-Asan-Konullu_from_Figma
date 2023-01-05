@@ -1,0 +1,14 @@
+.navbarComponent {
+    background-color: #104de5;
+}
+
+.nav-link {
+    color: white;
+}
+
+
+.navbarSearchbtn {
+    background: none;
+    border: none;
+    color: white;
+}
