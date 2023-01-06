@@ -1,7 +1,7 @@
 <div class="navbarComponent">
     <div class="container">
         <div class="navbar navbar-expand-lg">
-            <a href="#" class="navbar-brand">Logo</a>
+            <a routerLink="" class="navbar-brand"><img class="logoImg" src="assets/img/AsanLogo.png" width="74px" alt="logo" ></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,31 +11,31 @@
             <div class="collapse navbar-collapse" id="#navbarSupportedContent">
                 <ul class="navbar-nav">
 
-                    <li class="nav-item"><a href="#" class="nav-link">ANA SƏHİFƏ</a></li>
+                    <li class="nav-item"><a routerLink="" class="nav-link">ANA SƏHİFƏ</a></li>
 
                     <li class="nav-item">
                         <div ngbDropdown class="d-inline-block">
-                            <a href="#" class="navbarDropdown nav-link" id="dropdownBasic1" ngbDropdownToggle>
+                            <a routerLink="aboutus" class="navbarDropdown nav-link" id="dropdownBasic1" ngbDropdownToggle>
                                 HAQQIMIZDA
                             </a>
-                            <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-                                <a href="#" ngbDropdownItem>KOMANDAMIZ</a>
-                                <a href="#" ngbDropdownItem>TƏRƏFDAŞLAR</a>
-                                <a href="#" ngbDropdownItem>STRUKTUR</a>
-                                <a href="#" ngbDropdownItem>MÜKAFATLAR</a>
+                            <div class="menuDropdown" ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                                <a routerLink="aboutteam" ngbDropdownItem>KOMANDAMIZ</a>
+                                <a routerLink="partners" ngbDropdownItem>TƏRƏFDAŞLAR</a>
+                                <a routerLink="structure" ngbDropdownItem>STRUKTUR</a>
+                                <a routerLink="awards" ngbDropdownItem>MÜKAFATLAR</a>
                             </div>
                         </div>
                     </li>
 
-                    <li class="nav-item"><a href="#" class="nav-link">LAYİHƏLƏR</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">XƏBƏRLƏR</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">MEDİA</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">ƏLAQƏ</a></li>
+                    <li class="nav-item"><a routerLink="projects" class="nav-link">LAYİHƏLƏR</a></li>
+                    <li class="nav-item"><a routerLink="news" class="nav-link">XƏBƏRLƏR</a></li>
+                    <li class="nav-item"><a routerLink="media" class="nav-link">MEDİA</a></li>
+                    <li class="nav-item"><a routerLink="connect" class="nav-link">ƏLAQƏ</a></li>
                 </ul>
 
                 <div class="d-flex">
                     <social-media-group></social-media-group>
-                    <button class="navbarSearchbtn"><fa-icon [icon]="faMagnifyingGlass"></fa-icon></button>
+                    <button class="navbarSearchbtn" ><fa-icon style="font-size: 22px;" [icon]="faMagnifyingGlass"></fa-icon></button>
                 </div>
 
             </div>

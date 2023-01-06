@@ -1,14 +1,69 @@
 .navbarComponent {
+    height: 138px;
     background-color: #104de5;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
-.nav-link {
+.navbar {
+    height: 135px;
+}
+
+.logoImg {
+    display: block;
+    filter: brightness(100);
+    -webkit-filter: brightness(100);
+}
+
+.navbar-nav {
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.show > .nav-link {
     color: white;
 }
 
+.nav-link {
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+
+.menuDropdown {
+    margin-top: 49px;
+    background-color: #104de5;
+}
+
+.menuDropdown:last-child {
+    border-radius: 0px 0px 40px 0px;
+}
+
+.menuDropdown:last-child:hover  {
+    background-color: #104de5;
+}
+
+.dropdown-item:hover {
+    border-radius: 0px 0px 40px 0px ;
+    background-color: #104de5;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.menuDropdown a {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 9px 34px;
+    color: white;
+}
 
 .navbarSearchbtn {
-    background: none;
     border: none;
+    background: none;
+    margin-left: 25px;
     color: white;
 }

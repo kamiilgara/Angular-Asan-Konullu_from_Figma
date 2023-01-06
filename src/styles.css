@@ -1,7 +1,50 @@
 * {
-    padding: 0px;
-    margin: 0px;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: Poppins;
+}
+
+@font-face {
+    font-family: Poppins;
+    font-weight: 700, 600;
+    src: url(assets/Fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    font-weight: 500;
+    src: url(assets/Fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    font-weight: 400;
+    src: url(assets/Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    font-weight: 300;
+    src: url(assets/Fonts/Poppins-Light.ttf);
+}
+
+.commonComponent {
+    margin-top: 120px;
+}
+
+.commonComponent > h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+    color: #104DE5;
+}
+
+.commonComponent > p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 30px 0px 22px 0px;
+    color: #262A4E;
 }
