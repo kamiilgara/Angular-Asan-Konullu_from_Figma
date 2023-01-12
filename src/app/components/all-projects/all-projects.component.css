@@ -1,0 +1,44 @@
+
+.allprojectsCarousel {
+    width: 347px;
+}
+
+.allprojectsCarousel img {
+    display: block;
+    width: 347px !important;
+    margin-bottom: 23px;
+    height: 318px;
+    border-radius: 0px 0px 70px 0px;
+}
+
+.allprojectsCarousel h3 {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 4px 0px 48px 0px;
+    line-height: 25px;
+    color: #104DE5;
+}
+
+.allprojectsCarousel p {
+    font-weight: 400;
+    word-wrap: break-word;
+    word-break: break-all;
+    height: 96px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 25px;
+    overflow: hidden;
+    color: #646464;
+}
+
+.allprojectsCarousel a {
+    background-color: #104DE5;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 90px;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 16px 38px;
+    border-radius: 30px;
+}

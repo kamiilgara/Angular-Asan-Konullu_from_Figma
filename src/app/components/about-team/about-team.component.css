@@ -1,0 +1,45 @@
+.row {
+    margin-top: 60px;
+    padding: 25px 45px 45px 45px;
+    border: 1px solid #104de5;
+    border-radius: 0px 0px 70px 0px;
+    -webkit-border-radius: 0px 0px 70px 0px;
+    -moz-border-radius: 0px 0px 70px 0px;
+    -ms-border-radius: 0px 0px 70px 0px;
+    -o-border-radius: 0px 0px 70px 0px;
+}
+
+.col-lg-3 {
+    margin: 20px 0px 20px 0px;
+}
+
+.row a {
+    text-decoration: none;
+}
+
+.row a img {
+    display: block;
+    margin: 0px auto;
+    border-radius: 100%;
+}
+
+.row a h3 {
+    margin: 15px 0px 8px 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #262A4E;
+}
+
+.row a p {
+    font-family: 'Poppins';
+    font-style: normal;
+    margin: 0px auto;
+    width: 250px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #646464;
+}

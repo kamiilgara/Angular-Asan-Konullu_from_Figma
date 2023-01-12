@@ -24,8 +24,12 @@
     "@fortawesome/free-regular-svg-icons": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@ng-bootstrap/ng-bootstrap": "^14.0.0",
+    "@ngrx/store": "^15.1.0",
     "@popperjs/core": "^2.11.6",
+    "angular-auto-height": "^0.0.4",
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.2.3",
+    "ngx-owl-carousel-o": "^15.0.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"

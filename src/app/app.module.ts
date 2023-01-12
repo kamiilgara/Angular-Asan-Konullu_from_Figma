@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,11 +12,20 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { Route, RouterModule } from '@angular/router';
 import { MainComponent } from './components/main/main.component';
 import { AboutTeamComponent } from './components/about-team/about-team.component';
+import { TeamComponent } from './components/about-team/team/team.component';
+import { StoreModule } from '@ngrx/store';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { TeamcarouselComponent } from './components/about-team/team/teamcarousel/teamcarousel.component';
+import { AllProjectsComponent } from './components/all-projects/all-projects.component';
+import { ProjectComponent } from './components/all-projects/project/project.component';
 
 const rootconfig:Route[] = [
-  {path: 'aboutus', component: AboutUsComponent},
   {path: 'home', component: MainComponent},
+  {path: 'aboutus', component: AboutUsComponent},
   {path: 'aboutteam', component: AboutTeamComponent},
+  {path: 'aboutteam/teamlist', component: TeamComponent},
+  {path: 'allprojects', component: AllProjectsComponent},
+  {path: 'allprojects/:id', component: ProjectComponent}
 ];
 
 @NgModule({
@@ -26,13 +36,20 @@ const rootconfig:Route[] = [
     AboutUsComponent,
     MainComponent,
     AboutTeamComponent,
+    TeamComponent,
+    TeamcarouselComponent,
+    AllProjectsComponent,
+    ProjectComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(rootconfig),
     NgbModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    StoreModule.forRoot({}, {}),
+    CarouselModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,16 @@
+<div class="commonComponent container">
+    <h2>Layihələr</h2>
+    <p>Beynəlxalq</p>
+    <owl-carousel-o [options]="customOptions">
+        <ng-container *ngFor="let project of allProjectsList" class="ngCarousel">
+          <ng-template carouselSlide>
+            <div class="allprojectsCarousel">
+              <h3>{{project.head}}</h3>
+              <img src={{project.image}} alt="image">
+              <p>{{project.text}}</p>
+              <a [routerLink]="['/allprojects', project.id]">Ətraflı oxu</a>
+            </div>
+          </ng-template>
+        </ng-container>
+      </owl-carousel-o>
+</div>

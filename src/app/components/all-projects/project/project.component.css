@@ -1,0 +1,29 @@
+.col-lg-6 h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+    color: #104DE5;
+}
+
+.col-lg-6 h3 {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 21px 0px 30px 0px;
+    line-height: 25px;
+    color: #262A4E;
+}
+
+.col-lg-6 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #646464;
+}
+
+.col-lg-6 img {
+    display: block;
+    margin-left: auto;
+    border-radius: 0px 0px 110px 0px;
+}
