@@ -1,0 +1,10 @@
+<div class="mainOther2 container">
+    <h5>LAYİHƏLƏRİMİZ</h5>
+    <h1>Gördüyümüz işlərlə tanış olun</h1>
+    <div class="mainProjectsList">
+        <a class="mainProjects" href="" *ngFor="let mainProject of mainProjects">
+            <img src="{{mainProject.image}}" alt="img" width="400px" height="310px">
+            <p>{{mainProject.head}}</p>
+        </a>
+    </div>
+</div>

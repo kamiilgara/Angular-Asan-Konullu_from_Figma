@@ -1,0 +1,84 @@
+.col-lg-5 h5 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+    color: #104DE5;
+}
+
+.col-lg-5 h1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    margin: 24px 0px 32px 0px;
+    color: #262A4E;
+}
+
+.col-lg-5 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    margin: 0px;
+    color: #646464;
+}
+
+.col-lg-5 button {
+    margin-top: 36px;
+}
+
+.mediaIcons {
+    position: absolute;
+}
+
+.guardian div {
+    width: 142px;
+    height: 58px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    box-shadow: 0px 10px 20px rgba(153, 151, 151, 0.5);
+    border-radius: 10px;
+}
+
+#facebookbtn {
+    left: 400px;
+    top: 0px;
+}
+
+#businessbtn {
+    left: 100px;
+    top: 40px;
+}
+
+#forbesbtn {
+    right: 40px;
+    top: 65px;
+    font-weight: 700;
+}
+
+#bingbtn {
+    left: 470px;
+    top: 90px;
+}
+
+#youtubebtn {
+    left: 360px;
+    top: 180px;
+}
+
+#linkedinbtn {
+    left: 245px;
+    top: 125px;
+}
+
+#bbcbtn {
+    left: 70px;
+    top: 205px;
+}
+
+#guardianbtn {
+    right: 0px;
+    top: 200px;
+}

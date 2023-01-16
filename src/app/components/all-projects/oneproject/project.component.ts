@@ -9,14 +9,13 @@ import { allProjectsList } from 'src/app/allArrays';
 })
 export class ProjectComponent implements OnInit {
 
-  constructor(private route: ActivatedRoute) {}
-
   selectedProject:any;
 
-  ngOnInit(): void {
-    let id = +!!this.route.snapshot.paramMap.get('id');
-    this.selectedProject = allProjectsList.find(i => i.id === id);
-  }
+  constructor(private route: ActivatedRoute) {}
 
+  ngOnInit(): void {
+    let id:any = this.route.snapshot.paramMap.get('id');
+    this.selectedProject = allProjectsList.find(i => i.id == id) ;
+  }
 
 }

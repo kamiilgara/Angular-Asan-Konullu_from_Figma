@@ -1,0 +1,28 @@
+<div class="commonComponent container">
+    <div class="row">
+        <div class="col-lg-3">
+            <h3>Tarixdə Bu Gün</h3>
+            <h1>31 Mart</h1>
+            <hr>
+            <p>Hər günün tarixi əhəmiyyətindən xəbərdar olmaq istəyirsinizsə abunə olun.</p>
+            <div class="input-group mb-3">
+                <input type="text" placeholder="E-poçt ünvanınız">
+                <button><fa-icon [icon]="faArrowRight"></fa-icon></button>
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <owl-carousel-o [options]="customOptions" id="dailyHistory">
+                <ng-container *ngFor="let daily of dailyHistory">
+                    <ng-template carouselSlide [id]="daily.id" id="carousel-item">
+                        <div class="dailyHistoryDiv">
+                            <h2>{{daily.header}}</h2>
+                            <h3>{{daily.time}}</h3>
+                            <p>{{daily.text}}</p>
+                            <a href="">Ətraflı Oxu <fa-icon [icon]="faArrowRight"></fa-icon> </a>
+                        </div>
+                    </ng-template>
+                </ng-container>
+            </owl-carousel-o>
+        </div>
+    </div>
+</div>

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { faSquareFacebook, faSquareInstagram, faSquareTwitter, faSquareYoutube } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
@@ -12,4 +12,7 @@ export class SocialMediaGroupComponent {
   faSquareInstagram = faSquareInstagram;
   faSquareTwitter = faSquareTwitter;
   faSquareYoutube = faSquareYoutube;
+
+  @Input() style1 = {}
+
 }

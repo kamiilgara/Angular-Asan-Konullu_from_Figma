@@ -1,0 +1,56 @@
+.bg {
+    height: 760px;
+    position: relative;
+    background: url('https://s3-alpha-sig.figma.com/img/6dd9/9f17/e9ccbf6436f16402aa0c173de868e0bf?Expires=1674432000&Signature=cQfmxZSYNDKOetJ7T2T3SAwfPf6esX9i8~NmHmAIZCLVV4KKRX3D0m~FUpscq8InHxUHvZp3FtsW0Ely4R1SZR4Q9nW0wGGXuJR0TJLaKiN1rTz4K7hn5ZSzSIkjzDMK~vIuzra-I1B6~KRb7w3sH49gZkgtyxgb2xDXLYYSurGptPWxrdDe6u8Rz~OPxYOU7Ng42Vrap43FRMVwsTYcoAbl4RHiQx1IZ7WY7KPxJAIT7tbMpUm0sMgM-eV~2vSHzcQXkZHfFB1yf~-Zgg1B0JARmc3EuWaJ7Zfcy0kirOWiXpDAu8v1N-iKMX0DYqYMP5vs9kN1FSDE~Pb1UJmzsQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    filter: brightness(0.4);
+    -webkit-filter: brightness(0.4);
+}
+
+.container .row {
+    position: absolute;
+    top: 300px;
+}
+
+.carousel-item h1 {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 85px;
+    letter-spacing: 0.4rem;
+    color: #FFFFFF;
+}
+
+.carousel-item p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+    color: #FAFAFA;
+}
+
+.carousel-item button {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px 30px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    color: #FFFFFF;
+    background-color: #104de5;
+    border: none;
+    border-radius: 30px;
+}
+
+.carousel-indicators button {
+    width: 21px;
+    height: 21px;
+    margin: 0px 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.carousel-indicators button.active {
+    background-color: #104de5;
+}

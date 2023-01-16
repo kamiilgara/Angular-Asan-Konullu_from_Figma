@@ -17,10 +17,21 @@ import { StoreModule } from '@ngrx/store';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { TeamcarouselComponent } from './components/about-team/team/teamcarousel/teamcarousel.component';
 import { AllProjectsComponent } from './components/all-projects/all-projects.component';
-import { ProjectComponent } from './components/all-projects/project/project.component';
+import { ProjectComponent } from './components/all-projects/oneproject/project.component';
+import { HeadCarouselComponent } from './components/main/head-carousel/head-carousel.component';
+import { AboutActComponent } from './components/main/about-act/about-act.component';
+import { FourlinkComponent } from './components/main/fourlink/fourlink.component';
+import { MainTwoDivComponent } from './components/main/main-two-div/main-two-div.component';
+import { OurProjectsComponent } from './components/main/our-projects/our-projects.component';
+import { MainMapComponent } from './components/main/main-map/main-map.component';
+import { MainAwardsComponent } from './components/main/main-awards/main-awards.component';
+import { MainMediaComponent } from './components/main/main-media/main-media.component';
+import { MainhistoryDayComponent } from './components/main/mainhistory-day/mainhistory-day.component';
+import { MainTransitionComponent } from './components/main/main-transition/main-transition.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 const rootconfig:Route[] = [
-  {path: 'home', component: MainComponent},
+  {path: '', component: MainComponent},
   {path: 'aboutus', component: AboutUsComponent},
   {path: 'aboutteam', component: AboutTeamComponent},
   {path: 'aboutteam/teamlist', component: TeamComponent},
@@ -40,6 +51,17 @@ const rootconfig:Route[] = [
     TeamcarouselComponent,
     AllProjectsComponent,
     ProjectComponent,
+    HeadCarouselComponent,
+    AboutActComponent,
+    FourlinkComponent,
+    MainTwoDivComponent,
+    OurProjectsComponent,
+    MainMapComponent,
+    MainAwardsComponent,
+    MainMediaComponent,
+    MainhistoryDayComponent,
+    MainTransitionComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

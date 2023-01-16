@@ -48,3 +48,131 @@
     margin: 30px 0px 22px 0px;
     color: #262A4E;
 }
+
+
+.defaultButton {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 16px 38px;
+    border: none;
+    color: #FFFFFF;
+    background: #104DE5;
+    border-radius: 30px;
+}
+
+.mainOther {
+    padding: 138px 0px 10px 0px;
+}
+
+.mainOther2 {
+    padding: 138px 0px 10px 0px;
+}
+
+.mainOther2 > h5 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+    color: #104DE5;
+}
+
+.mainOther2 > h1 {
+    font-weight: 500;
+    font-size: 48px;
+    margin: 12px 0px 32px 0px;
+    line-height: 72px;
+    color: #262A4E;
+}
+
+#ourAwardsCarousel .owl-stage-outer {
+    display: flex !important;
+    padding-left: 30px !important;
+    justify-content: space-between !important;
+}
+
+#ourAwardsCarousel .owl-nav .owl-next {
+    line-height: 34px !important;
+    width: 41px !important;
+    height: 41px !important;
+    border-radius: 50% !important;
+    margin: 0px 15px;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+    background-color: #104DE5 !important;
+}
+
+#ourAwardsCarousel .owl-nav .owl-next.disabled {
+    background-color: #d3d3d3 !important;
+}
+
+#ourAwardsCarousel .owl-nav {
+    margin-top: 35px !important;
+}
+
+#ourAwardsCarousel .owl-nav .owl-prev {
+    line-height: 34px !important;
+    width: 41px !important;
+    height: 41px !important;
+    border-radius: 50% !important;
+    margin: 0px 15px;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+    background-color: #104DE5 !important;
+}
+
+#ourAwardsCarousel .owl-nav .owl-prev.disabled {
+    background-color: #d3d3d3 !important;
+}
+
+#dailyHistory .owl-carousel {
+    display: flex !important;
+}
+
+#dailyHistory .owl-item {
+    width: 485px !important;
+}
+
+#dailyHistory .owl-nav {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}
+
+#dailyHistory .owl-next {
+    width: 41px;
+    height: 41px;
+    margin: 10px 0px;
+    border-radius: 50%;
+    line-height: 35px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #104DE5;
+}
+
+#dailyHistory .owl-prev {
+    width: 41px;
+    height: 41px;
+    margin: 10px 0px;
+    border-radius: 50%;
+    line-height: 35px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #104DE5;
+}
+
+#dailyHistory .owl-next.disabled {
+    background-color: #d3d3d3;
+}
+
+#dailyHistory .owl-prev.disabled {
+    background-color: #d3d3d3;
+}

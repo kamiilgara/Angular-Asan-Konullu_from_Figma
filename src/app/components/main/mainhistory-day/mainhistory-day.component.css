@@ -1,0 +1,115 @@
+.col-lg-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+}
+
+.col-lg-3 h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+    color: #104DE5;
+}
+
+.col-lg-3 h1 {
+    font-weight: 500;
+    margin: 0px;
+    font-size: 40px;
+    line-height: 60px;
+    color: #262A4E;
+}
+
+hr {
+    margin-top: 0px;
+    width: 80px;
+    border: 4px solid #104DE5;
+}
+
+.col-lg-3 p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 22px 0px 28px;
+    color: #646464;
+}
+
+
+.input-group input {
+    width: 230px;
+    height: 38px;
+    padding-left: 10px;
+    border: 1px solid #104de5;
+}
+
+.input-group button {
+    width: 48px;
+    color: white;
+    background-color: #104de5;
+}
+
+.col-lg-9 {
+    padding: 0px;
+}
+
+.dailyHistoryDiv {
+    width: 455px;
+    height: 483px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #104DE5;
+    border-radius: 0px 0px 100px 0px;
+    padding: 39px 30px;
+}
+
+.dailyHistoryDiv:hover {
+    background-color: #104DE5;
+}
+
+.dailyHistoryDiv:hover h2 {
+    color: white;
+}
+.dailyHistoryDiv:hover h3 {
+    color: white;
+}
+.dailyHistoryDiv:hover p {
+    color: white;
+}
+.dailyHistoryDiv:hover a {
+    color: white;
+}
+
+.dailyHistoryDiv h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #262A4E;
+}
+
+.dailyHistoryDiv h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 42px 0px 25px;
+    color: #104DE5;
+}
+
+.dailyHistoryDiv p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    max-height: 200px;
+    flex: 1;
+    text-align: justify;
+    letter-spacing: -0.01em;
+    color: #646464;
+}
+
+.dailyHistoryDiv a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #104DE5;
+}

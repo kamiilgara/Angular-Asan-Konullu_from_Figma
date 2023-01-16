@@ -1,0 +1,28 @@
+.mainOther img {
+    display: block;
+    width: 131px;
+    height: 131px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.mainOther div p {
+    font-weight: 500;
+    padding-top: 23px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #262A4E;
+}
+
+.col-lg-5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#fourlinkCol {
+    margin-left: auto;
+}

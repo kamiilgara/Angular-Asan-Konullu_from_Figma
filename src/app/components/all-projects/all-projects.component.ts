@@ -12,7 +12,7 @@ export class AllProjectsComponent {
 
   allProjectsList = allProjectsList ;
 
-  constructor() {}
+  constructor(private router:Router, private route: ActivatedRoute) {}
 
 
   
