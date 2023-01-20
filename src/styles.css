@@ -5,6 +5,10 @@
     font-family: Poppins;
 }
 
+html, body, .page {
+    height: 100%;
+}
+
 @font-face {
     font-family: Poppins;
     font-weight: 700, 600;
@@ -27,6 +31,23 @@
     font-family: Poppins;
     font-weight: 300;
     src: url(assets/Fonts/Poppins-Light.ttf);
+}
+
+.navbarComponent {
+    height: 138px;
+    background-color: #104de5;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.navbarComponent2 {    
+    height: 138px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 2;
 }
 
 .commonComponent {

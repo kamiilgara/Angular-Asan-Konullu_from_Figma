@@ -1,3 +1,7 @@
-<app-navbar></app-navbar>
-<router-outlet></router-outlet>
-<app-footer></app-footer>
+<div class="d-flex page" style="flex-direction: column;">
+    <app-navbar [ngClass]="pathname == '/' ? 'navbarComponent2' : 'navbarComponent' "></app-navbar>
+    <div style="flex: 1;">
+        <router-outlet></router-outlet>
+    </div>
+    <app-footer></app-footer>
+</div>

@@ -1,0 +1,36 @@
+.mediaDiv {
+    width: 397px;
+    margin-top: 45px;
+}
+
+.mediaDiv h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+    color: #104DE5;
+}
+
+.mediaDiv h4 {
+    font-weight: 500;
+    margin: 23px 0px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #262A4E;
+}
+
+.mediaDiv img {
+    border-radius: 0px 0px 70px 0px;
+    height: 348px;
+}
+
+.mediaDiv p {
+    margin-top: 23px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #646464;
+    height: 100px;
+    overflow: hidden;
+}

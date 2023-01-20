@@ -29,6 +29,9 @@ import { MainMediaComponent } from './components/main/main-media/main-media.comp
 import { MainhistoryDayComponent } from './components/main/mainhistory-day/mainhistory-day.component';
 import { MainTransitionComponent } from './components/main/main-transition/main-transition.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { NewspageComponent } from './components/newspage/newspage.component';
+import { OnenewsComponent } from './components/newspage/onenews/onenews.component';
+import { MediaPageComponent } from './components/media-page/media-page.component';
 
 const rootconfig:Route[] = [
   {path: '', component: MainComponent},
@@ -36,7 +39,10 @@ const rootconfig:Route[] = [
   {path: 'aboutteam', component: AboutTeamComponent},
   {path: 'aboutteam/teamlist', component: TeamComponent},
   {path: 'allprojects', component: AllProjectsComponent},
-  {path: 'allprojects/:id', component: ProjectComponent}
+  {path: 'allprojects/:id', component: ProjectComponent},
+  {path: 'news', component: NewspageComponent},
+  {path: 'news/:id', component: OnenewsComponent},
+  {path: 'media', component: MediaPageComponent}
 ];
 
 @NgModule({
@@ -62,6 +68,9 @@ const rootconfig:Route[] = [
     MainhistoryDayComponent,
     MainTransitionComponent,
     FooterComponent,
+    NewspageComponent,
+    OnenewsComponent,
+    MediaPageComponent,
   ],
   imports: [
     BrowserModule,

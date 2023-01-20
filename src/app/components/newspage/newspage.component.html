@@ -1,0 +1,13 @@
+<div class="commonComponent container">
+    <h2>XƏBƏRLƏR</h2>
+    <ul>
+        <li *ngFor="let news of allNews">
+            <div [id]='news.id' class="news">
+                <h3>{{news.date}}</h3>
+                <h4>{{news.head}}</h4>
+                <p>{{news.text}}</p>
+                <button [routerLink]="['/news', news.id]" class="defaultButton">Ətraflı oxu</button>
+            </div>
+        </li>
+    </ul>
+</div>

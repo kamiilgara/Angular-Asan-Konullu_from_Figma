@@ -1,0 +1,22 @@
+<div class="commonComponent container">
+    <h2>MEDIA</h2>
+
+
+    <owl-carousel-o [options]="customOptions" id="mediaCarousel">
+
+        <ng-container *ngFor="let media of allMedia">
+          <ng-template carouselSlide [id]="media.id">
+            <div class="mediaDiv">
+                <h3>{{media.date}}</h3>
+                <h4>{{media.head}}</h4>
+                <img src={{media.image}} alt="img" class="d-block">
+                <p>{{media.text}}</p>
+                <button class="defaultButton">Ətraflı oxu</button>
+            </div>
+          </ng-template>
+        </ng-container>
+    
+      </owl-carousel-o>
+
+
+</div>
