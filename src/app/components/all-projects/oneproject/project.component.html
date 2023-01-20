@@ -3,10 +3,15 @@
         <div class="col-lg-6">
             <h2>LAYİHƏLƏR</h2>
             <h3>BEYNƏLXALQ > <span style="color: #104de5;">{{selectedProject.head}}</span> </h3>
-            <p>{{selectedProject.text}}</p>
+            <p>{{selectedProject.text}}</p> 
         </div>
         <div class="col-lg-6">
             <img src={{selectedProject.image}} width="600px" alt="img">
+            
+            <div class="navbutton">
+                <button (click)="decrease(selectedProject, selectedProject.id)" id="prevnews" class="prevbtn">←</button>
+                <button (click)="increase(selectedProject, selectedProject.id)" id="nextnews" class="nextbtn">→</button>
+            </div>
         </div>
     </div>
 </div>

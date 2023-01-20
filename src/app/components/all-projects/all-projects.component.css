@@ -1,11 +1,10 @@
 
 .allprojectsCarousel {
-    width: 347px;
+    width: 396px;
 }
 
 .allprojectsCarousel img {
     display: block;
-    width: 347px !important;
     margin-bottom: 23px;
     height: 318px;
     border-radius: 0px 0px 70px 0px;

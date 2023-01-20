@@ -29,7 +29,7 @@ export class MediaPageComponent {
         items: 3
       }
     },
-    nav: true
+    nav: false
   }
 
   allMedia: any = allMedia;

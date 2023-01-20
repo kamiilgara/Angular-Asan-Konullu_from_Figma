@@ -11,7 +11,7 @@
                 <h4>{{media.head}}</h4>
                 <img src={{media.image}} alt="img" class="d-block">
                 <p>{{media.text}}</p>
-                <button class="defaultButton">Ətraflı oxu</button>
+                <button [routerLink]="['/media', media.id]" class="defaultButton">Ətraflı oxu</button>
             </div>
           </ng-template>
         </ng-container>

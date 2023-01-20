@@ -1,0 +1,23 @@
+<div class="commonComponent container">
+    <div class="row">
+        <div class="col-lg-6">
+            <h1>XƏBƏRLƏR</h1>
+            <h3>{{selectedMedia.head}}</h3>
+            <p>{{selectedMedia.text}}</p>
+        </div>
+        <div class="col-lg-6">
+            <img src={{selectedMedia.image}} alt="img">
+            <div class="navbutton">
+                <button (click)="decrease(selectedMedia, selectedMedia.id)" id="prevnews" class="prevbtn">←</button>
+                <button (click)="increase(selectedMedia, selectedMedia.id)" id="nextnews" class="nextbtn">→</button>
+            </div>
+            <div class="icons">
+                <fa-icon [icon]="faLink" ></fa-icon>
+                <fa-icon style="color: #395185;" [icon]="faSquareFacebook" ></fa-icon>
+                <fa-icon style="color: #0A66C2;" [icon]="faLinkedin" ></fa-icon>
+                <fa-icon style="color: #55ACEE" [icon]="faTwitterSquare" ></fa-icon>
+                <fa-icon [icon]="faPrint" ></fa-icon>
+            </div>
+        </div>
+    </div>
+</div>

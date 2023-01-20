@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -32,6 +31,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NewspageComponent } from './components/newspage/newspage.component';
 import { OnenewsComponent } from './components/newspage/onenews/onenews.component';
 import { MediaPageComponent } from './components/media-page/media-page.component';
+import { MediaComponent } from './components/media-page/media/media.component';
+import { ConnectComponent } from './components/connect/connect.component';
 
 const rootconfig:Route[] = [
   {path: '', component: MainComponent},
@@ -42,7 +43,9 @@ const rootconfig:Route[] = [
   {path: 'allprojects/:id', component: ProjectComponent},
   {path: 'news', component: NewspageComponent},
   {path: 'news/:id', component: OnenewsComponent},
-  {path: 'media', component: MediaPageComponent}
+  {path: 'media', component: MediaPageComponent},
+  {path: 'media/:id', component: MediaComponent},
+  {path: 'connect', component: ConnectComponent}
 ];
 
 @NgModule({
@@ -71,6 +74,8 @@ const rootconfig:Route[] = [
     NewspageComponent,
     OnenewsComponent,
     MediaPageComponent,
+    MediaComponent,
+    ConnectComponent,
   ],
   imports: [
     BrowserModule,

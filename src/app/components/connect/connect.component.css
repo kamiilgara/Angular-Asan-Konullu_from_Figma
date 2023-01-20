@@ -1,0 +1,94 @@
+.col-lg-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col-lg-3 h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+    color: #104DE5;
+}
+
+.col-lg-3 .info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #262A4E;
+}
+
+.col-lg-3 .info .ng-fa-icon {
+    font-size: 42px;
+    color: #104DE5;
+}
+
+.writeUs {
+    padding: 45px 41px;
+    border: 1px solid #104DE5;
+    border-radius: 0px 0px 100px 0px;
+    -webkit-border-radius: 0px 0px 100px 0px;
+    -moz-border-radius: 0px 0px 100px 0px;
+    -ms-border-radius: 0px 0px 100px 0px;
+    -o-border-radius: 0px 0px 100px 0px;
+}
+
+.writeUs h1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    color: #262A4E;
+}
+
+.writeUs .row {
+    margin-top: 58px;
+}
+
+.writeUs label {
+    font-weight: 500;
+    margin: 14px 0px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #104DE5;
+}
+
+.mail {
+    margin-top: 68px;
+}
+
+.col-lg-5 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.writeUs button {}
+
+.writeUs input {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262A4E;
+}
+
+.writeUs input,
+textarea {
+    border: 1px solid #104DE5;
+    border-radius: 0px 0px 15px 0px;
+    -webkit-border-radius: 0px 0px 15px 0px;
+    -moz-border-radius: 0px 0px 15px 0px;
+    -ms-border-radius: 0px 0px 15px 0px;
+    -o-border-radius: 0px 0px 15px 0px;
+}
+
+textarea {
+    height: 451px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    padding: 10px 20px;
+    color: #646464;
+    overflow: hidden;
+}

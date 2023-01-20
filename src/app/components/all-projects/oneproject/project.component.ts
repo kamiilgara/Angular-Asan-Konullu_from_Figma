@@ -9,13 +9,37 @@ import { allProjectsList } from 'src/app/allArrays';
 })
 export class ProjectComponent implements OnInit {
 
-  selectedProject:any;
+  selectedProject: any;
 
-  constructor(private route: ActivatedRoute) {}
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    let id:any = this.route.snapshot.paramMap.get('id');
-    this.selectedProject = allProjectsList.find(i => i.id == id) ;
+    let id: any = this.route.snapshot.paramMap.get('id');
+    this.selectedProject = allProjectsList.find(i => i.id == id);
   }
+
+  increase(item: any, id: any) {
+    if (id == allProjectsList.length - 0) {
+      document.getElementById("nextnews")?.classList.add("disabled")
+    } else {
+      item = allProjectsList[id]
+      item.id++
+      this.selectedProject = item
+      console.log(this.selectedProject)
+      document.getElementById("prevnews")?.classList.remove("disabled")
+    }
+  };
+
+  decrease(item: any, id: any) {
+    if (id == 0) {
+      document.getElementById("prevnews")?.classList.add("disabled")
+    } else {
+      item = allProjectsList[id]
+      item.id--
+      this.selectedProject = item
+      console.log(this.selectedProject)
+      document.getElementById('nextnews')?.classList.remove("disabled")
+    }
+  };
 
 }
